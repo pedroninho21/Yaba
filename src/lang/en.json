@@ -1,0 +1,143 @@
+{
+  "translation": {
+    "errors": {
+      "unknown": "Unknown error. Please try again later !",
+      "email": {
+        "inuse": "This email is already in use"
+      }
+    },
+    "register": {
+      "Register": "Register",
+      "FirstName": {
+        "field": "First name",
+        "required": "First name is required"
+      },
+
+      "Name": "Name",
+      "Email": {
+        "field": "Email",
+        "required": "Email is required",
+        "invalid": "Invalid email address"
+      },
+      "Password": {
+        "field": "Password",
+        "required": "Password is required",
+        "minLenght": "Password must be at least 8 characters"
+      },
+      "PasswordConfirmation": {
+        "field": "Confirm your password",
+        "required": "Password confirmation is required",
+        "minLenght": "Password confirmation must be at least 8 characters",
+        "different": "The passwords do not match"
+      },
+      "RegisterButton": "Register",
+      "AlreadyHaveAnAccount": "Already have an account ? Login"
+    },
+    "login": {
+      "Login": "Login",
+      "Email": {
+        "field": "Email",
+        "required": "Email is required",
+        "invalid": "Invalid email address"
+      },
+      "Password": {
+        "field": "Password",
+        "required": "Password is required",
+        "minLenght": "Password must be at least 8 characters"
+      },
+      "LoginButton": "Login",
+      "DontHaveAnAccount": "Don't have an account ? Register"
+    },
+    "navbar": {
+      "Budgets": "Budgets",
+      "Categories": "Categories",
+      "Logout": "Logout"
+    },
+    "dashboardPage": {
+      "title": "My budgets"
+    },
+    "categoriesPage": {
+      "title": "My categories"
+    },
+
+    "budget": {
+      "create": {
+        "title": "Create a new budget",
+        "name": {
+          "field": "Budget name"
+        },
+        "button": "Create budget",
+        "cancelButton": "Cancel"
+      },
+      "defaultName": "Unnamed budget",
+      "loading": {
+        "errorTitle": "Oh snap !",
+        "noBudget": "It seems you don't have any budget yet !",
+        "loading": "Loading budgets..."
+      }
+    },
+
+    "category": {
+      "create": {
+        "title": "Create a new category",
+        "name": {
+          "field": "Category name"
+        },
+        "button": "Create category",
+        "cancelButton": "Cancel"
+      },
+      "defaultName": "Unnamed category",
+      "loading": {
+        "errorTitle": "Oh snap !",
+        "noCategory": "It seems you don't have any category yet !",
+        "loading": "Loading categories..."
+      }
+    },
+
+    "transaction": {
+      "defaultName": "Unnamed transaction",
+      "loading": {
+        "errorTitle": "Oh snap !",
+        "noTransaction": "It seems you don't have any transaction yet !",
+        "loading": "Loading transactions..."
+      },
+      "updateForm": {
+        "title": "Update transaction",
+        "fields": {
+          "name": {
+            "title": "Transaction name"
+          },
+          "amount": {
+            "title": "Transaction amount"
+          }
+        },
+        "buttons": {
+          "update": "Update transaction",
+          "cancel": "Cancel"
+        }
+      },
+      "createForm": {
+        "title": "Create a new transaction",
+        "loading": {
+          "loading": "Loading categories...",
+          "noCategories": "You don't have any categories yet. Please",
+          "noCategoriesButton": "create one",
+          "noCategoriesEnd": "first."
+        },
+        "titleCategory": "Category",
+        "fields": {
+          "name": {
+            "title": "Transaction name"
+          },
+          "amount": {
+            "title": "Amount"
+          }
+        },
+        "buttons": {
+          "create": "Create transaction",
+          "cancel": "Cancel"
+        }
+      }
+    }
+  }
+}

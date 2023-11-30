@@ -1,0 +1,144 @@
+{
+  "translation": {
+    "errors": {
+      "unknown": "Erreur inconnue. Réessayez plus tard !",
+      "email": {
+        "inuse": "Cet email est déjà utilisé"
+      }
+    },
+    "register": {
+      "Register": "Inscription",
+      "FirstName": {
+        "field": "Prénom",
+        "required": "Le prénom est requis"
+      },
+
+      "Name": "Nom",
+      "Email": {
+        "field": "Email",
+        "required": "l'email est requis",
+        "invalid": "adresse email invalide"
+      },
+      "Password": {
+        "field": "Mot de passe",
+        "required": "Le mot de passe est requis.",
+        "minLenght": "Le mot de passe doit faire au moins 8 caractères"
+      },
+      "PasswordConfirmation": {
+        "field": "Confirmez votre mot de passe",
+        "required": "La confirmation du mot de passe est requise",
+        "minLenght": "La confirmation du mot de passe doit faire au moins 8 caractères",
+        "different": "Les mots de passe ne correspondent pas"
+      },
+
+      "RegisterButton": "Inscription",
+      "AlreadyHaveAnAccount": "Vous avez déjà un compte ?"
+    },
+    "login": {
+      "Login": "Connexion",
+      "Email": {
+        "field": "Email",
+        "required": "L'email est requis",
+        "invalid": "L'adresse email est invalide"
+      },
+      "Password": {
+        "field": "Mot de passe",
+        "required": "Le mot de passe est requis",
+        "minLenght": "Le mot de passe doit faire au moins 8 caractères"
+      },
+      "LoginButton": "Connexion",
+      "DontHaveAnAccount": "Vous n'avez pas de compte ?"
+    },
+    "navbar": {
+      "Budgets": "Budgets",
+      "Categories": "Catégories",
+      "Logout": "Déconnexion"
+    },
+    "dashboardPage": {
+      "title": "Mes budgets"
+    },
+    "categoriesPage": {
+      "title": "Mes catégories"
+    },
+
+    "budget": {
+      "create": {
+        "title": "Créer un nouveau budget",
+        "name": {
+          "field": "Nom"
+        },
+        "button": "Create un budget",
+        "cancelButton": "Annuel"
+      },
+      "defaultName": "Budget sans nom",
+      "loading": {
+        "errorTitle": "Oh zut !",
+        "noBudget": "Il semblerait que vous n'ayez pas encore de budget !",
+        "loading": "Chargement des budgets..."
+      }
+    },
+
+    "category": {
+      "create": {
+        "title": "Créer une nouvelle catégorie",
+        "name": {
+          "field": "Nom"
+        },
+        "button": "Créer une catégorie",
+        "cancelButton": "Annuler"
+      },
+      "defaultName": "Catégorie sans nom",
+      "loading": {
+        "errorTitle": "Oh zut !",
+        "noCategory": "Il semblerait que vous n'ayez pas encore de catégorie !",
+        "loading": "Chargement des catégories..."
+      }
+    },
+
+    "transaction": {
+      "defaultName": "Transaction sans nom",
+      "loading": {
+        "errorTitle": "Oh zut !",
+        "noTransaction": "Il semblerait que vous n'ayez pas encore de transaction !",
+        "loading": "Chargement des transactions..."
+      },
+      "updateForm": {
+        "title": "Modifier une transaction",
+        "fields": {
+          "name": {
+            "title": "Nom de la transaction"
+          },
+          "amount": {
+            "title": "Montant de la transaction"
+          }
+        },
+        "buttons": {
+          "update": "Modifier la transaction",
+          "cancel": "Annuler"
+        }
+      },
+      "createForm": {
+        "title": "Créer une nouvelle transaction",
+        "loading": {
+          "loading": "Chargement des catégories...",
+          "noCategories": "Il semblerait que vous n'ayez pas encore de catégorie. \n",
+          "noCategoriesButton": "Créez-en une ",
+          "noCategoriesEnd": "d'abord !"
+        },
+        "titleCategory": "Catégorie",
+        "fields": {
+          "name": {
+            "title": "Nom de la transaction"
+          },
+          "amount": {
+            "title": "Montant de la transaction"
+          }
+        },
+        "buttons": {
+          "create": "Créer la transaction",
+          "cancel": "Annuler"
+        }
+      }
+    }
+  }
+}

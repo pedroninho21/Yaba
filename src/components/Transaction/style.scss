@@ -1,0 +1,54 @@
+.transaction {
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 0.5em;
+  .informations {
+    padding: 0.5em 0.5em;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      gap: 0.5em;
+
+      h2 {
+        margin: 0;
+      }
+
+      .name-editor {
+        font-size: x-large;
+      }
+    }
+    p {
+      margin: 0;
+    }
+
+    p {
+      &.positive {
+        color: green;
+      }
+      &.negative {
+        color: red;
+      }
+    }
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    max-width: 10vw;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5em;
+    border-left: 1px solid lightgray;
+    padding: 0.5em 1em;
+  }
+
+  .icon {
+    cursor: pointer;
+  }
+}

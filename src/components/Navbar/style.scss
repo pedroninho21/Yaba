@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  background-color: #1876d2;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+
+  .logo {
+    display: none;
+
+    h1 {
+      margin: 0;
+    }
+
+    @media only screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5em;
+      align-items: center;
+    }
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .active {
+      text-decoration: underline;
+      text-underline-offset: 0.5em;
+      text-decoration-thickness: 0.2em;
+      font-weight: bold;
+    }
+  }
+}

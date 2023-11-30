@@ -1,0 +1,12 @@
+.transaction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  .alert {
+    max-width: fit-content;
+    padding: 0 2rem;
+    justify-self: center;
+    align-self: center;
+  }
+}

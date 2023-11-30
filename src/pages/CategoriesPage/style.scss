@@ -1,0 +1,10 @@
+.categories-page {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header > * {
+    margin: 1rem 0;
+  }
+}
